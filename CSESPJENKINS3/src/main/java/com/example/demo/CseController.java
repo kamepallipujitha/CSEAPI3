@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class CseController {
 	@GetMapping("/home")
 	public String rocks() {
-		return "welcome to springboot with jenkins world";
+		return "welcome to springboot with jenkins world with github";
 	}
 }
