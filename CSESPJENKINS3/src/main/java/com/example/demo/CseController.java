@@ -8,5 +8,6 @@ public class CseController {
 	@GetMapping("/home")
 	public String rocks() {
 		return "welcome to springboot with jenkins world with github";
+	//welcome cse 1
 	}
 }
